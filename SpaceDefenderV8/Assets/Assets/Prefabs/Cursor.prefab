@@ -182,7 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 500
   PlayScene: LevelScene
-  OptionScene: OptionsScene
+  OptionScene: OptionScene
   MainMenu: MainMenu
   ButtonIsPressed: 0
   Timer: 0

@@ -16,6 +16,7 @@ public class OptionCursorScript : MonoBehaviour
     private Rigidbody2D RB;
     public string MainMenu;
     public bool ButtonIsPressed = false;
+    /*
     public GameObject OptionCanvas;
     public GameObject InfoCanvas;
     public GameObject ResetButton;
@@ -23,23 +24,11 @@ public class OptionCursorScript : MonoBehaviour
     public float Timer;
     public float Limit;
     public bool SwitchMenus;
+    */
     public string HiScoreChangeScene;
 
 
-    IEnumerator ResetHiScore()
-    {
-        Time.timeScale = 0;
-        OptionCanvas.SetActive(false);
-        ResetButton.SetActive(false);
-        MainMenuButton.SetActive(false);
-        InfoCanvas.SetActive(true);
-        yield return new WaitForSeconds(5f);
-        OptionCanvas.SetActive(true);
-        ResetButton.SetActive(true);
-        MainMenuButton.SetActive(true);
-        InfoCanvas.SetActive(false);
-        Time.timeScale = 1;
-    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -100,25 +89,6 @@ public class OptionCursorScript : MonoBehaviour
             SceneManager.LoadScene(MainMenu);
         }
 
-        if (!SwitchMenus)
-        {
-            OptionCanvas.SetActive(false);
-            ResetButton.SetActive(false);
-            MainMenuButton.SetActive(false);
-            InfoCanvas.SetActive(true);
-            for (int i = 0; i < 2; i++)
-            {
-                SwitchMenus = true;
-            }
-        }
-
-        if (SwitchMenus)
-        {
-            OptionCanvas.SetActive(true);
-            ResetButton.SetActive(true);
-            MainMenuButton.SetActive(true);
-            InfoCanvas.SetActive(false);
-        }
     }
 
 
