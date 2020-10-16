@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Arm
+  - Cursor
+  - SideSpawner2
+  - SideSpawner1
+  - Ship
+  - Laser
+  - Parallax
+  - OOPs
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 4274512739
+    locked: 0
+  - name: PlayerBody
+    uniqueID: 1400689313
+    locked: 0
+  - name: PlayerArm
+    uniqueID: 448811815
+    locked: 0
+  - name: Ship
+    uniqueID: 608024431
+    locked: 0
+  - name: Enemy
+    uniqueID: 1080495021
+    locked: 0
